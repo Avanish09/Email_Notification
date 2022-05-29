@@ -16,7 +16,7 @@ public class email {
     public static void sendemail4(String TC, File fl, String url) {
     	
     	Multipart multipart = new MimeMultipart();
-       //configuration
+       //Email configuration
 
         final String username = "Sender Email";
         final String password = "Sender email password";
